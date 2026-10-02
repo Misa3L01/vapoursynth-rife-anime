@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./Python/**)",
+      "Read(./ffmpeg/**)",
+      "Read(./mpv/**)",
+      "Read(./videos/**)",
+      "Read(./output/**)",
+      "Read(./cache/**)",
+      "Read(./experimental/torch-env/venv/**)",
+      "Read(./experimental/torch-env/python/**)",
+      "Read(./experimental/torch-env/repos/**)",
+      "Read(./experimental/torch-env/weights/**)",
+      "Read(./experimental/torch-env/.uv-cache/**)",
+      "Read(./experimental/output/**)",
+      "Read(./experimental/sim/**)",
+      "Read(./experimental/results/work/**)",
+      "Read(./**/*.engine)",
+      "Read(./**/*.onnx)",
+      "Read(./**/*.pth)",
+      "Read(./**/*.mkv)",
+      "Read(./**/*.mp4)",
+      "Read(./**/*.m2ts)",
+      "Read(./**/*.lwi)"
+    ]
+  }
+}
