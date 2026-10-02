@@ -1,0 +1,41 @@
+# Lista blanca: se ignora todo y solo se publica el codigo, la config y los
+# resultados medidos. Nunca videos, el runtime de Python, ffmpeg, mpv, los
+# motores de TensorRT ni los modelos descargados.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/config.bat
+!/run.bat
+!/Interpolar.bat
+!/Ver-en-vivo.bat
+!/requirements.txt
+!/requirements-vsrepo.txt
+!/scripts/
+!/tools/
+!/presets/
+
+# Python\ es el runtime embebido; solo va el reenvio que usa Miku.
+!/Python/
+/Python/*
+!/Python/interpolar_miku.bat
+
+!/experimental/
+/experimental/*
+!/experimental/README.md
+!/experimental/*.bat
+!/experimental/configs/
+!/experimental/tools/
+!/experimental/vpy/
+!/experimental/results/
+
+# El entorno PyTorch se reconstruye con setup.bat: solo va su codigo.
+!/experimental/torch-env/
+/experimental/torch-env/*
+!/experimental/torch-env/README.md
+!/experimental/torch-env/setup.bat
+!/experimental/torch-env/vfi/
+
+__pycache__/
+*.pyc
+/experimental/results/work/

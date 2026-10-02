@@ -1,0 +1,19 @@
+# ============================================================================
+#  requirements-vsrepo.txt  -  plugins de VapourSynth que SI usa el pipeline
+# ============================================================================
+#  Se instalan con vsrepo, no con pip:
+#      Python\Scripts\vsrepo.exe install <identificador> ...
+#  o directamente:  tools\install-plugins.bat
+#
+#  formato:  <identificador>    # namespace -> para que se usa
+# ----------------------------------------------------------------------------
+
+systems.innocent.lsmas      # lsmas    -> LWLibavSource, lectura del video fuente
+com.vapoursynth.misc        # misc     -> SCDetect, deteccion de cambio de plano
+com.holywu.cas              # cas      -> CAS, sharpening adaptativo final
+info.akarin.vsplugin        # akarin   -> akarin.Select; vsmlrt lo usa para aplicar
+                            #             el corte de escena sin callback de Python.
+                            #             Sin el, cae a std.FrameEval y pierde fps.
+
+# --- opcional ---------------------------------------------------------------
+com.vs.placebo              # placebo  -> Deband por GPU (solo si DEBAND=1)

@@ -1,0 +1,13 @@
+config                     | recon VMAF/PSNR        | twos VMAF/PSNR         | velocidad / VRAM
+B0_base_4161               |  25.47 / 18.07 dB      |  21.36 / 18.44 dB      |  63.0 fps  x1.313     8 s/10s  VRAM 1208 MB
+B1_base_426                |  26.09 / 18.04 dB      |  21.36 / 18.44 dB      |  46.1 fps  x0.962    10 s/10s  VRAM 1414 MB
+E1_426_fp32                |  26.18 / 18.04 dB      |  21.37 / 18.44 dB      |  27.8 fps  x0.580    17 s/10s  VRAM 2040 MB
+E2_4161_fp32               |  25.57 / 18.07 dB      |  21.37 / 18.44 dB      |  35.1 fps  x0.732    14 s/10s  VRAM 1725 MB
+E3_426_1440p               |  26.02 / 18.10 dB      |  21.30 / 18.44 dB      |  25.6 fps  x0.535    19 s/10s  VRAM 2514 MB
+E4_4161_1440p              |  25.51 / 18.11 dB      |  21.30 / 18.44 dB      |  35.5 fps  x0.739    14 s/10s  VRAM 1957 MB
+E5_426_tta                 |  25.86 / 18.09 dB      |  21.36 / 18.44 dB      |  23.5 fps  x0.489    20 s/10s  VRAM 2713 MB
+E6_4161_tta                |  25.25 / 18.12 dB      |  21.36 / 18.44 dB      |  32.2 fps  x0.672    15 s/10s  VRAM 2248 MB
+E7_4161_timeline           |  25.27 / 18.07 dB      |  25.31 / 18.78 dB      |  63.9 fps  x1.333     8 s/10s  VRAM 1143 MB
+E8_426_timeline            |  25.92 / 18.04 dB      |  25.95 / 18.75 dB      |  47.0 fps  x0.981    10 s/10s  VRAM 1376 MB
+F1_4161_60                 |  25.47 / 18.07 dB      |  21.36 / 18.44 dB      |  40.4 fps  x0.675    15 s/10s  VRAM 1148 MB
+F2_4161_60_timeline        |  25.27 / 18.07 dB      |  25.31 / 18.78 dB      |  40.2 fps  x0.671    15 s/10s  VRAM 1229 MB

@@ -1,0 +1,34 @@
+# ============================================================================
+#  requirements.txt  -  dependencias PyPI del pipeline RIFE + TensorRT
+# ============================================================================
+#
+#  Realidad incomoda: en tiempo de render este pipeline NO necesita ningun
+#  paquete de PyPI. Todo lo que usa (vapoursynth, vsmlrt, los plugins) viene
+#  del instalador de VapourSynth, de vsrepo o del release de vs-mlrt.
+#  Lo que sigue es solo para poder correr vsrepo y actualizar plugins.
+#
+#  Instalacion:
+#      Python\python.exe -m pip install -r requirements.txt
+#
+#  Ver requirements-vsrepo.txt para los plugins y INSTALL.md para lo manual.
+# ----------------------------------------------------------------------------
+
+# Gestor de plugins de VapourSynth. Sin esto tenes que bajar cada DLL a mano.
+vsrepo>=2.0.0
+
+# --- dependencias directas de vsrepo (pip las resuelve solo, van explicitas
+# --- para poder fijar versiones en una instalacion offline) -----------------
+typer>=0.25
+click>=8.3
+rich>=15.0
+tqdm>=4.67
+packaging>=25.0
+colorama>=0.4.6
+shellingham>=1.5
+markdown-it-py>=4.0
+mdurl>=0.1
+Pygments>=2.20
+typing_extensions>=4.15
+
+# --- opcional: autocompletado de la API de VapourSynth en el editor ---------
+# vsstubs>=1.4

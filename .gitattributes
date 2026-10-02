@@ -1,0 +1,4 @@
+# cmd.exe necesita CRLF en los .bat (con LF no encuentra las etiquetas).
+*.bat text eol=crlf
+# La app va en UTF-8 con BOM: PowerShell 5.1 lo necesita para los acentos.
+*.ps1 -text

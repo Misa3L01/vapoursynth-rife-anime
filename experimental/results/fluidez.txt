@@ -1,0 +1,13 @@
+salida.mp4
+config                   | congelados  | tirones   | frames
+B0_base_4161             |      7.3 %  |    0.443  | 294
+E7_4161_timeline         |      8.0 %  |    0.442  | 294
+F1_4161_60               |     10.0 %  |    0.387  | 367
+F2_4161_60_timeline      |     10.0 %  |    0.387  | 367
+
+salida.mp4  (simulado en dos)
+config                   | congelados  | tirones   | frames
+B0_base_4161             |     54.4 %  |    1.037  | 294
+E7_4161_timeline         |     11.8 %  |    0.123  | 294
+F1_4161_60               |     46.7 %  |    0.809  | 367
+F2_4161_60_timeline      |     12.8 %  |    0.123  | 367

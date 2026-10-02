@@ -1,0 +1,1 @@
+salida.mp4                 |   146 pares | duplicados   6.8 % | cortes   6 | corridas largo:veces  2:1, 5:1, 3:1
